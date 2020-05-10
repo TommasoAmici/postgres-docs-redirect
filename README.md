@@ -5,3 +5,4 @@ Google search results very often have links to older postgreSQL docs page, and s
 # Install
 
 [Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/postgres-docs-redirect/)
+[Chrome extension](https://chrome.google.com/webstore/detail/postgres-docs-redirect/ajcfpdiobeccopppdonocgddplegokbl)
