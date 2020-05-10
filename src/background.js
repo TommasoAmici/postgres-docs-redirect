@@ -2,10 +2,7 @@
   const URL_REGEX = /^https?:\/\/[w]+?\.postgresql\.org\/docs\/\d\.\d\/(.+)/;
   const URL_REPLACEMENT = "https://postgresql.org/docs/current/$1";
 
-  const SPECIAL_CASES = {
-    "library/sets.html": "library/stdtypes.html#set",
-    "library/stringio.html": "library/io.html#io.StringIO",
-  };
+  const SPECIAL_CASES = {};
 
   let isEnabled = true;
   updateIsEnabled();
