@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Postgres Docs Redirect",
-  "description": "Automatically redirects to latest postgreSQL documentation when a docs page is requested",
+  "description": "Automatically redirects to current postgreSQL documentation when a docs page is requested",
   "author": "Tommaso Amici",
   "version": "1.2.1",
   "icons": {
