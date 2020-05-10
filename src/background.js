@@ -14,9 +14,9 @@
    * Also, save the original URL in the localStorage so the onBeforeRequest
    * listener can redirect immediately next time visiting the same page.
    *
-   * @param {string} oldUrl the original Python 2 docs URL that should be
+   * @param {string} oldUrl the original Postgres docs URL that should be
    *  cached in localStorage
-   * @param {string} url Python 3 docs URL
+   * @param {string} url Postgres current docs URL
    * @param tabId current tab ID
    * @param {function} sendResponse callback function to call with the new
    *  URL (or null if an error occurred)
@@ -45,7 +45,7 @@
   }
 
   /*
-   * onBeforeRequest listener that redirects to py3 docs immediately if the
+   * onBeforeRequest listener that redirects to postgres docs immediately if the
    * requested page was visited before (using localStorage cache)
    */
   browserAPI.api.webRequest.onBeforeRequest.addListener(
